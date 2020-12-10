@@ -1,0 +1,21 @@
+html.forest{
+  background-image: url('forest.jpg'); 
+  background-repeat: no-repeat;
+  
+}
+//h1{
+  color:rgb(240, 248, 240);
+  font-size: 50pt;
+  border: 3pt solid #ffffff9f;
+  background-color: #88b682c4;
+}
+//h2{
+  color:rgb(240, 248, 240);
+  border: 3pt solid #ffffff9f;
+  background-color: #88b682c4;
+}
+//p{
+  color:rgb(240, 248, 240);
+  border: 3pt solid #ffffff9f;
+  background-color: #88b682c4;
+}
