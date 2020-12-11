@@ -1,21 +1,42 @@
 html.forest{
   background-image: url('forest.jpg'); 
   background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
   
 }
-//h1{
+a:link{
+
+}
+a:visited{
+
+}
+a:hover{
+
+}
+a.current{
+
+}
+a:active{
+  
+}
+.textblock{
+  color:rgb(255, 255, 255);
+  background-color: #b7c1db96;
+  margin-right: 30%;
+  padding: 10px;
+}
+h1{
   color:rgb(240, 248, 240);
   font-size: 50pt;
-  border: 3pt solid #ffffff9f;
-  background-color: #88b682c4;
+  background-color: #b7c1db96;
+  margin-right: 40%;
 }
-//h2{
+h2{
   color:rgb(240, 248, 240);
   border: 3pt solid #ffffff9f;
-  background-color: #88b682c4;
-}
-//p{
-  color:rgb(240, 248, 240);
-  border: 3pt solid #ffffff9f;
-  background-color: #88b682c4;
+  background-color: #b7c1db96;
+  font-size: 25pt;
+  margin-right: 40%;
 }
