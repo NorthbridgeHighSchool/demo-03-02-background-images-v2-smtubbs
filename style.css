@@ -6,37 +6,66 @@ html.forest{
   background-size: cover;
   
 }
+html.desert{
+  background-image: url('desert.jpg'); 
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+html.ocean{
+  background-image: url('ocean.jpg'); 
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+html.mountains{
+  background-image: url('mountains.jpg'); 
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover; 
+}
 a:link{
-
+  color: rgb(37, 37, 37);
+  border: 3px solid  rgb(37, 37, 37);
+  padding: 3pt;
+  background-color: #ffffff9a;
+  text-decoration: none;
 }
 a:visited{
-
+  color:rgb(53, 53, 53);
 }
 a:hover{
-
+  color: #8d99b1;
+  box-shadow: 2px 2px 2px 2px #72727286;
 }
 a.current{
-
+  color: #727272;
 }
 a:active{
-  
+  color: rgb(72, 85, 109)
+}
+li{
+  margin: 11pt;
 }
 .textblock{
   color:rgb(255, 255, 255);
-  background-color: #b7c1db96;
+  background-color: #9e9e9ea2;
   margin-right: 30%;
   padding: 10px;
 }
 h1{
   color:rgb(240, 248, 240);
   font-size: 50pt;
-  background-color: #b7c1db96;
+  background-color: #9e9e9e96;
   margin-right: 40%;
 }
 h2{
   color:rgb(240, 248, 240);
   border: 3pt solid #ffffff9f;
-  background-color: #b7c1db96;
+  background-color: #9e9e9e96;
   font-size: 25pt;
   margin-right: 40%;
 }
